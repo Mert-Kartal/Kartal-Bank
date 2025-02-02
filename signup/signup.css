@@ -1,0 +1,52 @@
+body {
+    background: url("https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGJhbmt8ZW58MHx8MHx8fDA%3D")
+      no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  #background {
+    border-radius: 15px;
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  h1,
+  h2 {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  input:valid {
+    border-color: #28a745;
+  }
+  input:invalid {
+    border-color: #dc3545;
+  }
+  input:invalid ~ .invalid-feedback {
+    display: block;
+  }
+  input:valid ~ .valid-feedback {
+    display: block;
+  }
+  
+  
+
+/* Başlık */
+.modal-header {
+  border-bottom: none;
+}
+
+/* Başlık Ortalanması */
+.modal-title {
+  text-align: center; /* Başlık ortalandı */
+}
+
